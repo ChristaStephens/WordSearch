@@ -1,7 +1,10 @@
 package family;
 
 public class FamilyPuzzle {
-	//code
+	/*Utlize user stories to create code
+	
+	Mellie wants to search horizontally*/
+	
 
 }
 
