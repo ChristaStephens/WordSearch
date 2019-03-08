@@ -7,9 +7,14 @@ import org.junit.Test;
 public class FamilyPuzzleTest {
 	//test cases
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	//for failures
+	@Test(expected=IndexOutOfBoundsException.class)
+	public void WhenMellieLooksHorizontallySheReturnXY() {
+		FamilyPuzzle horizontal =new FamilyPuzzle();
+		//I'm expecting the coordinates 1,6, want to get the class of xy
+		assertEquals("1,6", horizontal.getClass());
+		
 	}
 
+	
 }
