@@ -24,6 +24,13 @@ public class FamilyPuzzleTest {
 		//could use just equals if we know what the sum will be.
 		//assert equals gives -> (expected, actual)
 		assertEquals(10, five.amount);
+		
+		//you can add on to a test w/o creating another test case
+		//do this by adding on additional methods to test such as:
+		five.times(3);
+		//then add another static method of assert equals for what the case 
+		//should be and what is expected:
+		assertEquals(15, five.amount);
 		}
 		
 	
