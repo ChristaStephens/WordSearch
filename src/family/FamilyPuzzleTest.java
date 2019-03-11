@@ -16,7 +16,7 @@ public class FamilyPuzzleTest {
 //		assertEquals("1,6", horizontal.getClass());
 	
 	@Test
-	public void testMultiplication() {
+	public void testMultiplication()  {
 		Dollar five= new Dollar(5);
 		
 		//.times 2 is a method for multiplication
